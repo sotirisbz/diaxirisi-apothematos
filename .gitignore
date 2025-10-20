@@ -1,0 +1,67 @@
+# ===============================
+#  General
+# ===============================
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+#  Backend (Node.js)
+# ===============================
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.*.local
+backend/*.log
+backend/coverage/
+
+# Optional: compiled or generated files
+backend/**/*.tsbuildinfo
+
+# ===============================
+#  Frontend (React)
+# ===============================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*.local
+frontend/*.log
+frontend/coverage/
+
+# React test coverage
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.next/
+frontend/out/
+
+# ===============================
+#  OS Files
+# ===============================
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ===============================
+#  Dependencies Lock Files (optional)
+# ===============================
+# Uncomment *one* if you only use a specific package manager
+# package-lock.json
+# yarn.lock
+pnpm-lock.yaml
