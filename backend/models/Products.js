@@ -11,11 +11,11 @@ const productSchema = new mongoose.Schema(
       type: String,
       required: [true, "SKU is required"],
       unique: true,
-      trim,
+      trim: true,
       uppercase: true,
     },
     category: {
-      type: Number,
+      type: String,
       required: [true, "Category is required"],
       default: 0,
       min: [0, "Quantity cannot be negative"],
